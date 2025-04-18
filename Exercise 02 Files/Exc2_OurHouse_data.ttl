@@ -1,0 +1,50 @@
+# First, we introduce some prefixes.
+
+@prefix bot: <https://w3id.org/bot#> .
+@prefix : <https://exc2_example.org/> .
+
+# The site where the building is.
+:ourSite a bot:Site ;
+    bot:hasBuilding :ourBuilding .
+
+# The building
+:ourBuilding a bot:Building ;
+    bot:hasStorey :storey1, :storey2 .
+
+# Storey 1
+:storey1 a bot:Storey ;
+    bot:hasSpace :kitchen .
+
+# Storey 2
+:storey2 a bot:Storey ;
+    bot:hasSpace :bedroom , :bathroom .
+
+# Kitchen
+:kitchen a bot:Space ;
+    bot:adjacentZone :stairwell ;
+    bot:containsElement :diningTable, :kitchenCounter ;
+    bot:intersectingElement :stairs .
+
+# Stairwell
+:stairwell a bot:Space ;
+    bot:adjacentZone :bedroom ;
+    bot:intersectsZone :storey1, :storey2 ;
+    bot:intersectingElement :stairs .
+
+# Bedroom
+:bedroom a bot:Space ;
+    bot:intersectsZone :bathroom ;
+    bot:containsElement :bed .
+
+# Balcony
+:bathroom a bot:Space ;
+    bot:intersectsZone :bedroom ;
+    bot:containsElement :toilet, :sink, :shower .
+
+# Bathroom curtain
+:bathroomCurtain a bot:Interface ;
+    bot:interfaceOf :bedroom, :bathroom .
+
+# Entrance door
+:entranceDoor a bot:Interface ;
+    bot:interfaceOf :kitchen , :ourSite .
