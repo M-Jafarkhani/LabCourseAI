@@ -1,11 +1,14 @@
 # First, we introduce some prefixes.
 
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix bot: <https://w3id.org/bot#> .
-@prefix : <https://exc2_example.org/> .
+@prefix : <https://example.org/> .
 
 # The site where the building is.
 :ourSite a bot:Site ;
-    bot:hasBuilding :ourBuilding .
+    bot:hasBuilding :ourBuilding ;
+    geo:hasGeometry :NMPoly .
 
 # The building
 :ourBuilding a bot:Building ;
@@ -48,3 +51,7 @@
 # Entrance door
 :entranceDoor a bot:Interface ;
     bot:interfaceOf :kitchen , :ourSite .
+
+# Geometry as polygon
+:NMPoly a sf:Polygon;
+    geo:asWKT "POLYGON((-77.0365 38.8977, -77.0091 38.8895, -77.0101 38.8816, -77.0365 38.8822, -77.0365 38.8977))"^^geo:wktLiteral .
