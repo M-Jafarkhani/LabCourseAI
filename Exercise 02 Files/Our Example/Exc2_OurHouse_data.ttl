@@ -16,11 +16,13 @@
 
 # Storey 1
 :storey1 a bot:Storey ;
-    bot:hasSpace :kitchen .
+    bot:hasSpace :kitchen ;
+    geo:hasGeometry :storey1Geom .
 
 # Storey 2
 :storey2 a bot:Storey ;
-    bot:hasSpace :bedroom , :bathroom .
+    bot:hasSpace :bedroom , :bathroom ;
+    geo:hasGeometry :storey2Geom .
 
 # Kitchen
 :kitchen a bot:Space ;
@@ -55,3 +57,9 @@
 # Geometry as polygon
 :NMPoly a sf:Polygon;
     geo:asWKT "POLYGON((-77.0365 38.8977, -77.0091 38.8895, -77.0101 38.8816, -77.0365 38.8822, -77.0365 38.8977))"^^geo:wktLiteral .
+
+:storey1Geom a sf:Point ;
+    geo:asWKT "POINT Z(-77.0365 38.8977 0)"^^geo:wktLiteral .
+
+:storey2Geom a sf:Point ;
+    geo:asWKT "POINT Z(-77.0365 38.8977 3)"^^geo:wktLiteral .
