@@ -1,0 +1,558 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX bot: <https://w3id.org/bot#>
+PREFIX ifc: <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#>
+PREFIX omg: <https://w3id.org/omg#>
+PREFIX xsd: <https://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX lbd: <https://linkedbuildingdata.org/LBD#>
+PREFIX props: <http://lbd.arch.rwth-aachen.de/props#>
+PREFIX geo: <https://www.opengis.net/ont/geosparql#>
+PREFIX unit: <http://qudt.org/vocab/unit/>
+PREFIX smls: <https://w3id.org/def/smls-owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX inst: <https://lbd.example.com/>
+PREFIX fog: <https://w3id.org/fog#>
+
+inst:column_ad5edf68-8dd6-4233-a098-23f24a8fa888
+        props:globalIdIfcRoot_attribute_simple  "2jNjzeZTP2Cw2O8$9AZwY8";
+        rdfs:label                    "Concrete-Rectangular-Column:24 x 30:381101";
+        props:objectTypeIfcObject_attribute_simple  "Concrete-Rectangular-Column:24 x 30";
+        props:batid_attribute_simple  "381101";
+        rdf:type                      bot:Element .
+
+inst:wall_0563b04a-3065-42ac-84ae-d851567329f5
+        props:globalIdIfcRoot_attribute_simple  "05Ox1AC6L2h8Iks55MSodr";
+        rdfs:label                    "Basic Wall:Retaining - 300mm Concrete:355100";
+        props:objectTypeIfcObject_attribute_simple  "Basic Wall:Retaining - 300mm Concrete";
+        props:batid_attribute_simple  "355100";
+        rdf:type                      bot:Element .
+
+inst:wall_ad5edf68-8dd6-4233-a098-23f24a8fb663
+        props:globalIdIfcRoot_attribute_simple  "2jNjzeZTP2Cw2O8$9AZxPZ";
+        rdfs:label                    "Basic Wall:Retaining - 300mm Concrete:380486";
+        props:objectTypeIfcObject_attribute_simple  "Basic Wall:Retaining - 300mm Concrete";
+        props:batid_attribute_simple  "380486";
+        rdf:type                      bot:Element .
+
+inst:wall_ad5edf68-8dd6-4233-a098-23f24a8fb5bd
+        props:globalIdIfcRoot_attribute_simple  "2jNjzeZTP2Cw2O8$9AZxMz";
+        rdfs:label                    "Basic Wall:Retaining - 300mm Concrete:380312";
+        props:objectTypeIfcObject_attribute_simple  "Basic Wall:Retaining - 300mm Concrete";
+        props:batid_attribute_simple  "380312";
+        rdf:type                      bot:Element .
+
+inst:space_5d60ec7e-1479-442b-ab89-51d80896ba80
+        bot:containsElement  inst:flowterminal_bfd1443c-15b5-40c0-bd3b-21d297f80119;
+        bot:containsElement  inst:flowterminal_bfd1443c-15b5-40c0-bd3b-21d297f8002b;
+        rdf:type             bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "1TOEn_57b4Awk9KTW8bhg0";
+        rdfs:label           "4";
+        props:longNameIfcSpatialElement_attribute_simple  "Room" .
+
+inst:wall_0563b04a-3065-42ac-84ae-d8515673211c
+        props:globalIdIfcRoot_attribute_simple  "05Ox1AC6L2h8Iks55MSo4S";
+        rdfs:label                    "Basic Wall:Retaining - 300mm Concrete:353269";
+        props:objectTypeIfcObject_attribute_simple  "Basic Wall:Retaining - 300mm Concrete";
+        props:batid_attribute_simple  "353269";
+        rdf:type                      bot:Element .
+
+inst:curtainwall_bfd1443c-15b5-40c0-bd3b-21d297f83de0
+        props:globalIdIfcRoot_attribute_simple  "2$qKGy5RL0mBqx8TAN_3tW";
+        rdfs:label                    "BAN_Draperies_Wave_1C:1C_FOSCA_Sand_9980:372823";
+        props:objectTypeIfcObject_attribute_simple  "BAN_Draperies_Wave_1C:1C_FOSCA_Sand_9980";
+        props:batid_attribute_simple  "372823";
+        rdf:type                      bot:Element .
+
+inst:furniture_2a74d8d1-add3-485b-a31b-620df2140a99
+        props:globalIdIfcRoot_attribute_simple  "0gTDZHhTD8MwCROWto50gP";
+        rdfs:label                    "Bed-Box:Queen 60\" x 79\":360607";
+        props:objectTypeIfcObject_attribute_simple  "Bed-Box:Queen 60\" x 79\"";
+        props:batid_attribute_simple  "360607";
+        rdf:type                      bot:Element .
+
+inst:space_5d60ec7e-1479-442b-ab89-51d80896ba9c
+        bot:containsElement  inst:furniture_2a74d8d1-add3-485b-a31b-620df2140a99;
+        bot:containsElement  inst:shadingdevice_bfd1443c-15b5-40c0-bd3b-21d297f83d8a;
+        rdf:type             bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "1TOEn_57b4Awk9KTW8bhgS";
+        rdfs:label           "3";
+        props:longNameIfcSpatialElement_attribute_simple  "Room" .
+
+inst:curtainwall_bfd1443c-15b5-40c0-bd3b-21d297f83dee
+        props:globalIdIfcRoot_attribute_simple  "2$qKGy5RL0mBqx8TAN_3tk";
+        rdfs:label                    "BAN_Draperies_Wave_1C:1C_FOSCA_Sand_9980:372825";
+        props:objectTypeIfcObject_attribute_simple  "BAN_Draperies_Wave_1C:1C_FOSCA_Sand_9980";
+        props:batid_attribute_simple  "372825";
+        rdf:type                      bot:Element .
+
+inst:ifcowl_ifcopeningelement_65e1003e-c21c-1dcc-ffa7-3e56b11a9687
+        props:globalIdIfcRoot_attribute_simple  "1buG0_mXmTpF_dFbQn6fQ7";
+        rdfs:label                    "M_Fixed:0915 x 1830mm:376300:1";
+        props:batid_attribute_simple  "376300";
+        rdf:type                      bot:Element .
+
+lbd:x-max  rdf:type  owl:DatatypeProperty .
+
+inst:stair_436b7413-fa88-4484-8f33-494bc5dde422
+        props:globalIdIfcRoot_attribute_simple  "13QtGJ_eX4X8ypIKl5tUGY";
+        rdfs:label                    "Cast-In-Place Stair:Stair:358066";
+        props:objectTypeIfcObject_attribute_simple  "Cast-In-Place Stair:Monolithic Stair";
+        props:batid_attribute_simple  "358066";
+        rdf:type                      bot:Element .
+
+inst:curtainwall_bfd1443c-15b5-40c0-bd3b-21d297f83de7
+        props:globalIdIfcRoot_attribute_simple  "2$qKGy5RL0mBqx8TAN_3td";
+        rdfs:label                    "BAN_Draperies_Wave_1C:1C_FOSCA_Sand_9980:372816";
+        props:objectTypeIfcObject_attribute_simple  "BAN_Draperies_Wave_1C:1C_FOSCA_Sand_9980";
+        props:batid_attribute_simple  "372816";
+        rdf:type                      bot:Element .
+
+inst:column_ad5edf68-8dd6-4233-a098-23f24a8fb1b1
+        props:globalIdIfcRoot_attribute_simple  "2jNjzeZTP2Cw2O8$9AZx6n";
+        rdfs:label                    "Concrete-Rectangular-Column:24 x 30:379284";
+        props:objectTypeIfcObject_attribute_simple  "Concrete-Rectangular-Column:24 x 30";
+        props:batid_attribute_simple  "379284";
+        rdf:type                      bot:Element .
+
+inst:slab_79ed79e9-77ef-4f7e-8fdc-9109409e9ff5
+        props:globalIdIfcRoot_attribute_simple  "1vxNdfT_zFVe$SaGb0df$r";
+        rdfs:label                    "Foundation Slab:150mm Foundation Slab:355442";
+        props:objectTypeIfcObject_attribute_simple  "Foundation Slab:150mm Foundation Slab";
+        props:batid_attribute_simple  "355442";
+        rdf:type                      bot:Element .
+
+inst:stairflight_436b7413-fa88-4484-8f33-494bc5dde426
+        props:globalIdIfcRoot_attribute_simple  "13QtGJ_eX4X8ypIKl5tUGc";
+        rdfs:label                    "Cast-In-Place Stair:Stair:358066 Run 1";
+        props:objectTypeIfcObject_attribute_simple  "Monolithic Run:150mm Depth";
+        props:batid_attribute_simple  "358070";
+        rdf:type                      bot:Element .
+
+inst:building_1b6f3f15-d20e-4ce6-bdad-680496617e99
+        bot:hasStorey  inst:storey_e3e052f9-0156-11d5-9301-0000863f269a;
+        bot:hasStorey  inst:storey_458c0e49-01bb-11d5-9302-0000863f251b;
+        bot:hasStorey  inst:storey_0563b04a-3065-42ac-84ae-d85156732706;
+        rdf:type       bot:Building;
+        props:globalIdIfcRoot_attribute_simple  "0RRpyLqWvCvhsjQ0IMONwP" .
+
+inst:wall_0563b04a-3065-42ac-84ae-d85156732b60
+        props:globalIdIfcRoot_attribute_simple  "05Ox1AC6L2h8Iks55MSojW";
+        rdfs:label                    "Basic Wall:Retaining - 300mm Concrete:354697";
+        props:objectTypeIfcObject_attribute_simple  "Basic Wall:Retaining - 300mm Concrete";
+        props:batid_attribute_simple  "354697";
+        rdf:type                      bot:Element .
+
+inst:wall_0563b04a-3065-42ac-84ae-d85156732649
+        props:globalIdIfcRoot_attribute_simple  "05Ox1AC6L2h8Iks55MSoP9";
+        rdfs:label                    "Basic Wall:Retaining - 300mm Concrete:353440";
+        props:objectTypeIfcObject_attribute_simple  "Basic Wall:Retaining - 300mm Concrete";
+        props:batid_attribute_simple  "353440";
+        rdf:type                      bot:Element .
+
+inst:furniture_2a74d8d1-add3-485b-a31b-620df2140bc1
+        props:globalIdIfcRoot_attribute_simple  "0gTDZHhTD8MwCROWto50l1";
+        rdfs:label                    "Chair-Breuer:Chair-Breuer:360903";
+        props:objectTypeIfcObject_attribute_simple  "Chair-Breuer:Chair-Breuer";
+        props:batid_attribute_simple  "360903";
+        rdf:type                      bot:Element .
+
+inst:curtainwall_bfd1443c-15b5-40c0-bd3b-21d297f83de2
+        props:globalIdIfcRoot_attribute_simple  "2$qKGy5RL0mBqx8TAN_3tY";
+        rdfs:label                    "BAN_Draperies_Wave_1C:1C_FOSCA_Sand_9980:372821";
+        props:objectTypeIfcObject_attribute_simple  "BAN_Draperies_Wave_1C:1C_FOSCA_Sand_9980";
+        props:batid_attribute_simple  "372821";
+        rdf:type                      bot:Element .
+
+inst:space_0f6efd22-3be0-4157-b578-a0f4ddc393a3
+        rdf:type    bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "0FRlqYE_11LxLueFJTmvEZ";
+        rdfs:label  "2";
+        props:longNameIfcSpatialElement_attribute_simple  "Room" .
+
+lbd:y-max  rdf:type  owl:DatatypeProperty .
+
+inst:slab_7415befd-393d-4365-9a7a-6d3a84903a2a
+        props:globalIdIfcRoot_attribute_simple  "1q5RxzEJr3PPfwRJg4a3eg";
+        rdfs:label                    "Floor:Standard Timber-Wood Finish:355470";
+        props:objectTypeIfcObject_attribute_simple  "Floor:Standard Timber-Wood Finish";
+        props:batid_attribute_simple  "355470";
+        rdf:type                      bot:Element .
+
+inst:flowterminal_bfd1443c-15b5-40c0-bd3b-21d297f8002b
+        props:globalIdIfcRoot_attribute_simple  "2$qKGy5RL0mBqx8TAN_00h";
+        rdfs:label                    "Water Closet - Flush Valve - Floor Mounted:Private - 1.6 gpf:363932";
+        props:objectTypeIfcObject_attribute_simple  "Water Closet - Flush Valve - Floor Mounted:Private - 1.6 gpf";
+        props:batid_attribute_simple  "363932";
+        rdf:type                      bot:Element .
+
+inst:ifcowl_ifcopeningelement_bec68c98-fdd6-2cf0-b128-916cb6967987
+        props:globalIdIfcRoot_attribute_simple  "2_neoO$TOiyB4eaMosbdc7";
+        rdfs:label                    "M_Fixed:0915 x 1830mm:375900:1";
+        props:batid_attribute_simple  "375900";
+        rdf:type                      bot:Element .
+
+inst:curtainwall_bfd1443c-15b5-40c0-bd3b-21d297f83e8a
+        props:globalIdIfcRoot_attribute_simple  "2$qKGy5RL0mBqx8TAN_3wA";
+        rdfs:label                    "BAN_Draperies_Wave_1C:1C_FOSCA_Sand_9980:373565";
+        props:objectTypeIfcObject_attribute_simple  "BAN_Draperies_Wave_1C:1C_FOSCA_Sand_9980";
+        props:batid_attribute_simple  "373565";
+        rdf:type                      bot:Element .
+
+inst:wall_0563b04a-3065-42ac-84ae-d85156732688
+        props:globalIdIfcRoot_attribute_simple  "05Ox1AC6L2h8Iks55MSoQ8";
+        rdfs:label                    "Basic Wall:Retaining - 300mm Concrete:353377";
+        props:objectTypeIfcObject_attribute_simple  "Basic Wall:Retaining - 300mm Concrete";
+        props:batid_attribute_simple  "353377";
+        rdf:type                      bot:Element .
+
+inst:ifcowl_ifcopeningelement_1c242087-bb91-f803-7e65-39c363a76834
+        props:globalIdIfcRoot_attribute_simple  "0S9227kv7u0tvbESDZfsWq";
+        rdfs:label                    "Door-Garage-Flush_Panel:4000x3000:378575:1";
+        props:batid_attribute_simple  "378575";
+        rdf:type                      bot:Element .
+
+lbd:z-max  rdf:type  owl:DatatypeProperty .
+
+inst:furniture_2a74d8d1-add3-485b-a31b-620df2140bc3
+        props:globalIdIfcRoot_attribute_simple  "0gTDZHhTD8MwCROWto50l3";
+        rdfs:label                    "Chair-Breuer:Chair-Breuer:360901";
+        props:objectTypeIfcObject_attribute_simple  "Chair-Breuer:Chair-Breuer";
+        props:batid_attribute_simple  "360901";
+        rdf:type                      bot:Element .
+
+inst:curtainwall_bfd1443c-15b5-40c0-bd3b-21d297f83f03
+        props:globalIdIfcRoot_attribute_simple  "2$qKGy5RL0mBqx8TAN_3y3";
+        rdfs:label                    "BAN_Draperies_Wave_1C:1C_FOSCA_Sand_9980:373428";
+        props:objectTypeIfcObject_attribute_simple  "BAN_Draperies_Wave_1C:1C_FOSCA_Sand_9980";
+        props:batid_attribute_simple  "373428";
+        rdf:type                      bot:Element .
+
+inst:curtainwall_bfd1443c-15b5-40c0-bd3b-21d297f83de4
+        props:globalIdIfcRoot_attribute_simple  "2$qKGy5RL0mBqx8TAN_3ta";
+        rdfs:label                    "BAN_Draperies_Wave_1C:1C_FOSCA_Sand_9980:372819";
+        props:objectTypeIfcObject_attribute_simple  "BAN_Draperies_Wave_1C:1C_FOSCA_Sand_9980";
+        props:batid_attribute_simple  "372819";
+        rdf:type                      bot:Element .
+
+inst:window_e8a5b26f-f576-4383-9ec7-a4bb8e81f903
+        props:globalIdIfcRoot_attribute_simple  "3efR9lzNP3Wvx7fBkEWVa3";
+        props:overallWidthIfcWindow_attribute_simple  "914.99999999999989"^^<http://www.w3.org/2001/XMLSchema#double>;
+        rdfs:label                    "M_Fixed:0915 x 1830mm:375900";
+        props:objectTypeIfcObject_attribute_simple  "M_Fixed:0915 x 1830mm";
+        props:batid_attribute_simple  "375900";
+        props:overallHeightIfcWindow_attribute_simple  "1829.9999999999982"^^<http://www.w3.org/2001/XMLSchema#double>;
+        rdf:type                      bot:Element .
+
+inst:wall_0563b04a-3065-42ac-84ae-d85156732885
+        props:globalIdIfcRoot_attribute_simple  "05Ox1AC6L2h8Iks55MSoY5";
+        rdfs:label                    "Basic Wall:Retaining - 300mm Concrete:354924";
+        props:objectTypeIfcObject_attribute_simple  "Basic Wall:Retaining - 300mm Concrete";
+        props:batid_attribute_simple  "354924";
+        rdf:type                      bot:Element .
+
+inst:ifcowl_ifcopeningelement_6d8cc090-bf68-24db-543c-17fba7b22e32
+        props:globalIdIfcRoot_attribute_simple  "1jZC2GlsWasrGy5$kdiYuo";
+        rdfs:label                    "M_Fixed:0915 x 1830mm:376241:1";
+        props:batid_attribute_simple  "376241";
+        rdf:type                      bot:Element .
+
+inst:site_1b6f3f15-d20e-4ce6-bdad-680496617e9a
+        bot:hasBuilding  inst:building_1b6f3f15-d20e-4ce6-bdad-680496617e99;
+        rdf:type         bot:Site;
+        props:globalIdIfcRoot_attribute_simple  "0RRpyLqWvCvhsjQ0IMONwQ";
+        rdfs:label       "Default";
+        props:refElevationIfcSite_attribute_simple  "0."^^<http://www.w3.org/2001/XMLSchema#double> .
+
+inst:flowterminal_bfd1443c-15b5-40c0-bd3b-21d297f80119
+        props:globalIdIfcRoot_attribute_simple  "2$qKGy5RL0mBqx8TAN_04P";
+        rdfs:label                    "Sink - Work:20\"x18\":363694";
+        props:objectTypeIfcObject_attribute_simple  "Sink - Work:20\"x18\"";
+        props:batid_attribute_simple  "363694";
+        rdf:type                      bot:Element .
+
+inst:ifcowl_ifcgeographicelement_ad5edf68-8dd6-4233-a098-23f24a8fb742
+        props:globalIdIfcRoot_attribute_simple  "2jNjzeZTP2Cw2O8$9AZxT2";
+        rdfs:label                    "Toposolid:Grassland - 1200mm:380775";
+        props:objectTypeIfcObject_attribute_simple  "Toposolid:Grassland - 1200mm";
+        props:batid_attribute_simple  "380775";
+        rdf:type                      bot:Element .
+
+inst:space_0f6efd22-3be0-4157-b578-a0f4ddc3939e
+        bot:containsElement  inst:furniture_2a74d8d1-add3-485b-a31b-620df2140bc2;
+        rdfs:label           "1";
+        props:longNameIfcSpatialElement_attribute_simple  "Room";
+        bot:containsElement  inst:furniture_2a74d8d1-add3-485b-a31b-620df2140bc3;
+        bot:containsElement  inst:furniture_2a74d8d1-add3-485b-a31b-620df2140bc0;
+        bot:containsElement  inst:furniture_2a74d8d1-add3-485b-a31b-620df2140bce;
+        bot:containsElement  inst:flowterminal_eb20efde-5e72-4210-9a78-568d936b340e;
+        bot:containsElement  inst:furniture_2a74d8d1-add3-485b-a31b-620df2140bc1;
+        props:globalIdIfcRoot_attribute_simple  "0FRlqYE_11LxLueFJTmvEU";
+        rdf:type             bot:Space .
+
+inst:slab_bfd1443c-15b5-40c0-bd3b-21d297f8399a
+        props:globalIdIfcRoot_attribute_simple  "2$qKGy5RL0mBqx8TAN_3cQ";
+        rdfs:label                    "Floor:Standard Tile Finish:373805";
+        props:objectTypeIfcObject_attribute_simple  "Floor:Standard Tile Finish";
+        props:batid_attribute_simple  "373805";
+        rdf:type                      bot:Element .
+
+inst:wall_0563b04a-3065-42ac-84ae-d85156732b80
+        bot:hasSubElement             inst:window_e8a5b26f-f576-4383-9ec7-a4bb8e81f8ee;
+        bot:hasSubElement             inst:window_e8a5b26f-f576-4383-9ec7-a4bb8e81f8b3;
+        bot:hasSubElement             inst:window_e8a5b26f-f576-4383-9ec7-a4bb8e81f903;
+        props:globalIdIfcRoot_attribute_simple  "05Ox1AC6L2h8Iks55MSok0";
+        rdfs:label                    "Basic Wall:Retaining - 300mm Concrete:354665";
+        props:objectTypeIfcObject_attribute_simple  "Basic Wall:Retaining - 300mm Concrete";
+        props:batid_attribute_simple  "354665";
+        rdf:type                      bot:Element .
+
+inst:curtainwall_bfd1443c-15b5-40c0-bd3b-21d297f83de6
+        props:globalIdIfcRoot_attribute_simple  "2$qKGy5RL0mBqx8TAN_3tc";
+        rdfs:label                    "BAN_Draperies_Wave_1C:1C_FOSCA_Sand_9980:372817";
+        props:objectTypeIfcObject_attribute_simple  "BAN_Draperies_Wave_1C:1C_FOSCA_Sand_9980";
+        props:batid_attribute_simple  "372817";
+        rdf:type                      bot:Element .
+
+inst:curtainwall_bfd1443c-15b5-40c0-bd3b-21d297f83f05
+        props:globalIdIfcRoot_attribute_simple  "2$qKGy5RL0mBqx8TAN_3y5";
+        rdfs:label                    "BAN_Draperies_Wave_1C:1C_FOSCA_Sand_9980:373426";
+        props:objectTypeIfcObject_attribute_simple  "BAN_Draperies_Wave_1C:1C_FOSCA_Sand_9980";
+        props:batid_attribute_simple  "373426";
+        rdf:type                      bot:Element .
+
+inst:roof_a5510741-77f4-4c09-9e83-5b04246b4d04
+        props:globalIdIfcRoot_attribute_simple  "2bKGT1T$HC2Pw3MmGaQqq4";
+        rdfs:label                    "Basic Roof:Warm Roof - Concrete:378732";
+        props:objectTypeIfcObject_attribute_simple  "Basic Roof:Warm Roof - Concrete";
+        props:batid_attribute_simple  "378732";
+        rdf:type                      bot:Element .
+
+inst:shadingdevice_bfd1443c-15b5-40c0-bd3b-21d297f83d8a
+        props:globalIdIfcRoot_attribute_simple  "2$qKGy5RL0mBqx8TAN_3sA";
+        rdfs:label                    "Bandalux_Draperies_Estrada-HorizontalTrackBase_2:Draperies - Estrada Track - FOSCA FR Sand:372797";
+        props:objectTypeIfcObject_attribute_simple  "Bandalux_Draperies_Estrada-HorizontalTrackBase_2:Draperies - Estrada Track - FOSCA FR Sand";
+        props:batid_attribute_simple  "372797";
+        rdf:type                      bot:Element .
+
+inst:window_e8a5b26f-f576-4383-9ec7-a4bb8e81f8ee
+        props:globalIdIfcRoot_attribute_simple  "3efR9lzNP3Wvx7fBkEWVZk";
+        props:overallWidthIfcWindow_attribute_simple  "914.99999999999989"^^<http://www.w3.org/2001/XMLSchema#double>;
+        rdfs:label                    "M_Fixed:0915 x 1830mm:376241";
+        props:objectTypeIfcObject_attribute_simple  "M_Fixed:0915 x 1830mm";
+        props:batid_attribute_simple  "376241";
+        props:overallHeightIfcWindow_attribute_simple  "1829.9999999999982"^^<http://www.w3.org/2001/XMLSchema#double>;
+        rdf:type                      bot:Element .
+
+inst:furniture_2a74d8d1-add3-485b-a31b-620df2140bc0
+        props:globalIdIfcRoot_attribute_simple  "0gTDZHhTD8MwCROWto50l0";
+        rdfs:label                    "Chair-Breuer:Chair-Breuer:360902";
+        props:objectTypeIfcObject_attribute_simple  "Chair-Breuer:Chair-Breuer";
+        props:batid_attribute_simple  "360902";
+        rdf:type                      bot:Element .
+
+inst:curtainwall_bfd1443c-15b5-40c0-bd3b-21d297f83de1
+        props:globalIdIfcRoot_attribute_simple  "2$qKGy5RL0mBqx8TAN_3tX";
+        rdfs:label                    "BAN_Draperies_Wave_1C:1C_FOSCA_Sand_9980:372822";
+        props:objectTypeIfcObject_attribute_simple  "BAN_Draperies_Wave_1C:1C_FOSCA_Sand_9980";
+        props:batid_attribute_simple  "372822";
+        rdf:type                      bot:Element .
+
+inst:storey_e3e052f9-0156-11d5-9301-0000863f269a
+        bot:containsElement  inst:curtainwall_bfd1443c-15b5-40c0-bd3b-21d297f83de0;
+        props:globalIdIfcRoot_attribute_simple  "3Zu5Bv0LOHrPC10026FoQQ";
+        bot:containsElement  inst:wall_0563b04a-3065-42ac-84ae-d85156732885;
+        bot:containsElement  inst:slab_79ed79e9-77ef-4f7e-8fdc-9109409e9ff5;
+        bot:containsElement  inst:curtainwall_bfd1443c-15b5-40c0-bd3b-21d297f83de3;
+        bot:containsElement  inst:door_e8a5b26f-f576-4383-9ec7-a4bb8e818390;
+        rdfs:label           "Level 1";
+        bot:containsElement  inst:wall_0563b04a-3065-42ac-84ae-d85156732688;
+        bot:hasSpace         inst:space_0f6efd22-3be0-4157-b578-a0f4ddc3939e;
+        bot:containsElement  inst:curtainwall_bfd1443c-15b5-40c0-bd3b-21d297f83f02;
+        bot:containsElement  inst:curtainwall_bfd1443c-15b5-40c0-bd3b-21d297f83f04;
+        bot:containsElement  inst:curtainwall_bfd1443c-15b5-40c0-bd3b-21d297f83dee;
+        props:elevationIfcBuildingStorey_attribute_simple  "0."^^<http://www.w3.org/2001/XMLSchema#double>;
+        bot:containsElement  inst:curtainwall_bfd1443c-15b5-40c0-bd3b-21d297f83de7;
+        bot:containsElement  inst:curtainwall_bfd1443c-15b5-40c0-bd3b-21d297f83de4;
+        bot:containsElement  inst:curtainwall_bfd1443c-15b5-40c0-bd3b-21d297f83de1;
+        bot:hasSpace         inst:space_0f6efd22-3be0-4157-b578-a0f4ddc393a3;
+        props:longNameIfcSpatialElement_attribute_simple  "Level 1";
+        bot:containsElement  inst:curtainwall_bfd1443c-15b5-40c0-bd3b-21d297f83e8a;
+        bot:containsElement  inst:wall_0563b04a-3065-42ac-84ae-d8515673211c;
+        bot:containsElement  inst:wall_0563b04a-3065-42ac-84ae-d851567329f5;
+        bot:containsElement  inst:curtainwall_bfd1443c-15b5-40c0-bd3b-21d297f83f03;
+        bot:containsElement  inst:curtainwall_bfd1443c-15b5-40c0-bd3b-21d297f83def;
+        bot:containsElement  inst:curtainwall_bfd1443c-15b5-40c0-bd3b-21d297f83f05;
+        bot:containsElement  inst:wall_0563b04a-3065-42ac-84ae-d85156732624;
+        bot:containsElement  inst:stair_436b7413-fa88-4484-8f33-494bc5dde422;
+        bot:containsElement  inst:wall_0563b04a-3065-42ac-84ae-d85156732649;
+        bot:containsElement  inst:curtainwall_bfd1443c-15b5-40c0-bd3b-21d297f83de2;
+        bot:containsElement  inst:curtainwall_bfd1443c-15b5-40c0-bd3b-21d297f83e89;
+        bot:containsElement  inst:wall_ad5edf68-8dd6-4233-a098-23f24a8fb663;
+        rdf:type             bot:Storey;
+        bot:containsElement  inst:curtainwall_bfd1443c-15b5-40c0-bd3b-21d297f83e8b;
+        bot:containsElement  inst:column_ad5edf68-8dd6-4233-a098-23f24a8fa828;
+        props:objectTypeIfcObject_attribute_simple  "Level:8mm Head";
+        bot:containsElement  inst:column_ad5edf68-8dd6-4233-a098-23f24a8fa888;
+        bot:containsElement  inst:column_ad5edf68-8dd6-4233-a098-23f24a8fb1b1;
+        bot:containsElement  inst:curtainwall_bfd1443c-15b5-40c0-bd3b-21d297f83de5;
+        bot:containsElement  inst:curtainwall_bfd1443c-15b5-40c0-bd3b-21d297f83de6;
+        bot:containsElement  inst:wall_ad5edf68-8dd6-4233-a098-23f24a8fb5bd .
+
+lbd:x-min  rdf:type  owl:DatatypeProperty .
+
+inst:furniture_2a74d8d1-add3-485b-a31b-620df2140bce
+        props:globalIdIfcRoot_attribute_simple  "0gTDZHhTD8MwCROWto50lE";
+        rdfs:label                    "Chair-Breuer:Chair-Breuer:360904";
+        props:objectTypeIfcObject_attribute_simple  "Chair-Breuer:Chair-Breuer";
+        props:batid_attribute_simple  "360904";
+        rdf:type                      bot:Element .
+
+inst:storey_458c0e49-01bb-11d5-9302-0000863f251b
+        rdf:type             bot:Storey;
+        bot:hasSpace         inst:space_5d60ec7e-1479-442b-ab89-51d80896ba80;
+        bot:containsElement  inst:wall_0563b04a-3065-42ac-84ae-d85156732bfb;
+        bot:containsElement  inst:wall_0563b04a-3065-42ac-84ae-d85156732b60;
+        bot:containsElement  inst:window_e8a5b26f-f576-4383-9ec7-a4bb8e81f8b3;
+        bot:hasSpace         inst:space_5d60ec7e-1479-442b-ab89-51d80896ba9c;
+        rdfs:label           "Level 2";
+        bot:containsElement  inst:window_e8a5b26f-f576-4383-9ec7-a4bb8e81f8ee;
+        props:longNameIfcSpatialElement_attribute_simple  "Level 2";
+        bot:containsElement  inst:slab_bfd1443c-15b5-40c0-bd3b-21d297f8399a;
+        props:objectTypeIfcObject_attribute_simple  "Level:8mm Head";
+        bot:containsElement  inst:window_e8a5b26f-f576-4383-9ec7-a4bb8e81f903;
+        bot:containsElement  inst:slab_7415befd-393d-4365-9a7a-6d3a84903a2a;
+        props:globalIdIfcRoot_attribute_simple  "15Z0v90RiHrPC20026FoKR";
+        props:elevationIfcBuildingStorey_attribute_simple  "800."^^<http://www.w3.org/2001/XMLSchema#double>;
+        bot:containsElement  inst:wall_0563b04a-3065-42ac-84ae-d85156732a7e;
+        bot:containsElement  inst:wall_0563b04a-3065-42ac-84ae-d85156732b80 .
+
+inst:curtainwall_bfd1443c-15b5-40c0-bd3b-21d297f83def
+        props:globalIdIfcRoot_attribute_simple  "2$qKGy5RL0mBqx8TAN_3tl";
+        rdfs:label                    "BAN_Draperies_Wave_1C:1C_FOSCA_Sand_9980:372824";
+        props:objectTypeIfcObject_attribute_simple  "BAN_Draperies_Wave_1C:1C_FOSCA_Sand_9980";
+        props:batid_attribute_simple  "372824";
+        rdf:type                      bot:Element .
+
+inst:window_e8a5b26f-f576-4383-9ec7-a4bb8e81f8b3
+        props:globalIdIfcRoot_attribute_simple  "3efR9lzNP3Wvx7fBkEWVYp";
+        props:overallWidthIfcWindow_attribute_simple  "915.00000000000045"^^<http://www.w3.org/2001/XMLSchema#double>;
+        rdfs:label                    "M_Fixed:0915 x 1830mm:376300";
+        props:objectTypeIfcObject_attribute_simple  "M_Fixed:0915 x 1830mm";
+        props:batid_attribute_simple  "376300";
+        props:overallHeightIfcWindow_attribute_simple  "1829.9999999999982"^^<http://www.w3.org/2001/XMLSchema#double>;
+        rdf:type                      bot:Element .
+
+inst:furniture_2a74d8d1-add3-485b-a31b-620df2140bc2
+        props:globalIdIfcRoot_attribute_simple  "0gTDZHhTD8MwCROWto50l2";
+        rdfs:label                    "Table-Dining Round w Chairs:36\" Diameter:360900";
+        props:objectTypeIfcObject_attribute_simple  "Table-Dining Round w Chairs:36\" Diameter";
+        props:batid_attribute_simple  "360900";
+        rdf:type                      bot:Element .
+
+lbd:y-min  rdf:type  owl:DatatypeProperty .
+
+inst:curtainwall_bfd1443c-15b5-40c0-bd3b-21d297f83de3
+        props:globalIdIfcRoot_attribute_simple  "2$qKGy5RL0mBqx8TAN_3tZ";
+        rdfs:label                    "BAN_Draperies_Wave_1C:1C_FOSCA_Sand_9980:372820";
+        props:objectTypeIfcObject_attribute_simple  "BAN_Draperies_Wave_1C:1C_FOSCA_Sand_9980";
+        props:batid_attribute_simple  "372820";
+        rdf:type                      bot:Element .
+
+inst:curtainwall_bfd1443c-15b5-40c0-bd3b-21d297f83f02
+        props:globalIdIfcRoot_attribute_simple  "2$qKGy5RL0mBqx8TAN_3y2";
+        rdfs:label                    "BAN_Draperies_Wave_1C:1C_FOSCA_Sand_9980:373429";
+        props:objectTypeIfcObject_attribute_simple  "BAN_Draperies_Wave_1C:1C_FOSCA_Sand_9980";
+        props:batid_attribute_simple  "373429";
+        rdf:type                      bot:Element .
+
+inst:curtainwall_bfd1443c-15b5-40c0-bd3b-21d297f83e89
+        props:globalIdIfcRoot_attribute_simple  "2$qKGy5RL0mBqx8TAN_3w9";
+        rdfs:label                    "BAN_Draperies_Wave_2C:2C_FOSCA_Sand_9980:373566";
+        props:objectTypeIfcObject_attribute_simple  "BAN_Draperies_Wave_2C:2C_FOSCA_Sand_9980";
+        props:batid_attribute_simple  "373566";
+        rdf:type                      bot:Element .
+
+inst:door_e8a5b26f-f576-4383-9ec7-a4bb8e818390
+        props:globalIdIfcRoot_attribute_simple  "3efR9lzNP3Wvx7fBkEWOEG";
+        props:overallWidthIfcDoor_attribute_simple  "4050.8000000000006"^^<http://www.w3.org/2001/XMLSchema#double>;
+        rdfs:label                    "Door-Garage-Flush_Panel:4000x3000:378575";
+        props:overallHeightIfcDoor_attribute_simple  "3025.4000000000005"^^<http://www.w3.org/2001/XMLSchema#double>;
+        props:objectTypeIfcObject_attribute_simple  "Door-Garage-Flush_Panel:4000x3000";
+        props:batid_attribute_simple  "378575";
+        rdf:type                      bot:Element .
+
+inst:curtainwall_bfd1443c-15b5-40c0-bd3b-21d297f83e8b
+        props:globalIdIfcRoot_attribute_simple  "2$qKGy5RL0mBqx8TAN_3wB";
+        rdfs:label                    "BAN_Draperies_Wave_1C:1C_FOSCA_Sand_9980:373564";
+        props:objectTypeIfcObject_attribute_simple  "BAN_Draperies_Wave_1C:1C_FOSCA_Sand_9980";
+        props:batid_attribute_simple  "373564";
+        rdf:type                      bot:Element .
+
+lbd:hasBoundingBox  rdf:type  owl:ObjectProperty .
+
+lbd:z-min  rdf:type  owl:DatatypeProperty .
+
+inst:wall_0563b04a-3065-42ac-84ae-d85156732624
+        bot:hasSubElement             inst:door_e8a5b26f-f576-4383-9ec7-a4bb8e818390;
+        props:globalIdIfcRoot_attribute_simple  "05Ox1AC6L2h8Iks55MSoOa";
+        rdfs:label                    "Basic Wall:Retaining - 300mm Concrete:353485";
+        props:objectTypeIfcObject_attribute_simple  "Basic Wall:Retaining - 300mm Concrete";
+        props:batid_attribute_simple  "353485";
+        rdf:type                      bot:Element .
+
+inst:storey_0563b04a-3065-42ac-84ae-d85156732706
+        bot:containsElement  inst:roof_a5510741-77f4-4c09-9e83-5b04246b4d04;
+        rdf:type             bot:Storey;
+        props:globalIdIfcRoot_attribute_simple  "05Ox1AC6L2h8Iks55MSoS6";
+        rdfs:label           "Roof";
+        props:longNameIfcSpatialElement_attribute_simple  "Roof";
+        props:objectTypeIfcObject_attribute_simple  "Level:8mm Head";
+        props:elevationIfcBuildingStorey_attribute_simple  "3400."^^<http://www.w3.org/2001/XMLSchema#double> .
+
+inst:flowterminal_eb20efde-5e72-4210-9a78-568d936b340e
+        props:globalIdIfcRoot_attribute_simple  "3h8E$UNd9249fuLesJQpGE";
+        rdfs:label                    "Kitchen Unit:25\"x84\":375510";
+        props:objectTypeIfcObject_attribute_simple  "Kitchen Unit:25\"x84\"";
+        props:batid_attribute_simple  "375510";
+        rdf:type                      bot:Element .
+
+inst:column_ad5edf68-8dd6-4233-a098-23f24a8fa828
+        props:globalIdIfcRoot_attribute_simple  "2jNjzeZTP2Cw2O8$9AZwWe";
+        rdfs:label                    "Concrete-Rectangular-Column:24 x 30:380941";
+        props:objectTypeIfcObject_attribute_simple  "Concrete-Rectangular-Column:24 x 30";
+        props:batid_attribute_simple  "380941";
+        rdf:type                      bot:Element .
+
+inst:wall_0563b04a-3065-42ac-84ae-d85156732bfb
+        props:globalIdIfcRoot_attribute_simple  "05Ox1AC6L2h8Iks55MSolx";
+        rdfs:label                    "Basic Wall:Retaining - 300mm Concrete:354578";
+        props:objectTypeIfcObject_attribute_simple  "Basic Wall:Retaining - 300mm Concrete";
+        props:batid_attribute_simple  "354578";
+        rdf:type                      bot:Element .
+
+inst:ifcowl_ifcopeningelement_842ea4ed-7cd8-6881-fdb2-555f0c35b201
+        props:globalIdIfcRoot_attribute_simple  "24BgJjVDXeWVsoLLyCDR81";
+        rdfs:label                    "Basic Wall:Retaining - 300mm Concrete:354924:1";
+        props:batid_attribute_simple  "354924";
+        rdf:type                      bot:Element .
+
+inst:curtainwall_bfd1443c-15b5-40c0-bd3b-21d297f83f04
+        props:globalIdIfcRoot_attribute_simple  "2$qKGy5RL0mBqx8TAN_3y4";
+        rdfs:label                    "BAN_Draperies_Wave_1C:1C_FOSCA_Sand_9980:373427";
+        props:objectTypeIfcObject_attribute_simple  "BAN_Draperies_Wave_1C:1C_FOSCA_Sand_9980";
+        props:batid_attribute_simple  "373427";
+        rdf:type                      bot:Element .
+
+inst:curtainwall_bfd1443c-15b5-40c0-bd3b-21d297f83de5
+        props:globalIdIfcRoot_attribute_simple  "2$qKGy5RL0mBqx8TAN_3tb";
+        rdfs:label                    "BAN_Draperies_Wave_1C:1C_FOSCA_Sand_9980:372818";
+        props:objectTypeIfcObject_attribute_simple  "BAN_Draperies_Wave_1C:1C_FOSCA_Sand_9980";
+        props:batid_attribute_simple  "372818";
+        rdf:type                      bot:Element .
+
+inst:wall_0563b04a-3065-42ac-84ae-d85156732a7e
+        props:globalIdIfcRoot_attribute_simple  "05Ox1AC6L2h8Iks55MSof_";
+        rdfs:label                    "Basic Wall:Retaining - 300mm Concrete:354455";
+        props:objectTypeIfcObject_attribute_simple  "Basic Wall:Retaining - 300mm Concrete";
+        props:batid_attribute_simple  "354455";
+        rdf:type                      bot:Element .
