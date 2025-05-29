@@ -1,0 +1,200 @@
+[
+  {
+    "iri": "http://example.org/building/storey_1_column_1",
+    "label": "Column",
+    "serialization": {
+      "rotation": 1.6,
+      "location": "11.018214736826971,-8.530662168643644,0.23122091591358185",
+      "size": "0.5533708789533041,0.41356823398439424,3.1718838661909103"
+    }
+  },
+  {
+    "iri": "http://example.org/building/storey_3_column_3",
+    "label": "Column",
+    "serialization": {
+      "rotation": 0.0,
+      "location": "8.133086204528809,7.911224842071533,6.679582118988037",
+      "size": "0.4061927795410156,0.0,3.5923781394958496"
+    }
+  },
+  {
+    "iri": "http://example.org/building/building",
+    "label": "Building",
+    "serialization": {
+      "rotation": 3.2,
+      "location": "-15.884293924699318,-12.634886012212935,0.0",
+      "size": "11.094224417554074,11.134749828159721,12.526294708251953"
+    }
+  },
+  {
+    "iri": "http://example.org/building/slab_1",
+    "label": "Slab 1",
+    "serialization": {
+      "rotation": 3.0,
+      "location": "-4.205848788953194,-13.428290542544811,3.403104782104492",
+      "size": "0.30766221161777985,8.703214981017254,0.23122096061706543"
+    }
+  },
+  {
+    "iri": "http://example.org/building/storey_3_wall_1",
+    "label": "Wall",
+    "serialization": {
+      "rotation": 5.1000000000000005,
+      "location": "-6.982008331841826,13.512457600661826,6.679582118988037",
+      "size": "0.0034318203654777335,0.2818237388491909,3.5923781394958496"
+    }
+  },
+  {
+    "iri": "http://example.org/building/storey_1_wall_1",
+    "label": "Wall",
+    "serialization": {
+      "rotation": 0.2,
+      "location": "7.539798243161699,6.792173823281545,0.23122091591358185",
+      "size": "0.0013998578383702664,0.32185549529895763,3.1718838661909103"
+    }
+  },
+  {
+    "iri": "http://example.org/building/storey_3",
+    "label": "Storey 3",
+    "serialization": {
+      "rotation": 0.0,
+      "location": "4.712197303771973,2.683257818222046,6.448360919952393",
+      "size": "9.42045783996582,10.512230157852173,0.0"
+    }
+  },
+  {
+    "iri": "http://example.org/building/storey_3_column_1",
+    "label": "Column",
+    "serialization": {
+      "rotation": 0.0,
+      "location": "11.260284423828125,7.423376083374023,6.679582118988037",
+      "size": "0.3682384490966797,0.0,3.5923781394958496"
+    }
+  },
+  {
+    "iri": "http://example.org/building/storey_2",
+    "label": "Storey 2",
+    "serialization": {
+      "rotation": 0.0,
+      "location": "4.782123565673828,3.018951177597046,3.403104782104492",
+      "size": "8.794817924499512,10.085709810256958,0.0"
+    }
+  },
+  {
+    "iri": "http://example.org/building/storey_2_column_1",
+    "label": "Column",
+    "serialization": {
+      "rotation": 0.0,
+      "location": "8.140121459960938,8.268651008605957,3.6343257427215576",
+      "size": "0.5852203369140625,0.0,2.814035177230835"
+    }
+  },
+  {
+    "iri": "http://example.org/building/floor_slab",
+    "label": "Floor Slab",
+    "serialization": {
+      "rotation": 4.6000000000000005,
+      "location": "-4.657742571564756,4.382230050194019,0.0",
+      "size": "0.14884631594447573,7.805550509157391,0.23122091591358185"
+    }
+  },
+  {
+    "iri": "http://example.org/building/storey_3_column_2",
+    "label": "Column",
+    "serialization": {
+      "rotation": 0.0,
+      "location": "7.71914529800415,8.42037296295166,6.679582118988037",
+      "size": "0.5591769218444824,0.8568534851074219,3.5923781394958496"
+    }
+  },
+  {
+    "iri": "http://example.org/building/storey_2_wall_1",
+    "label": "Wall",
+    "serialization": {
+      "rotation": 3.5,
+      "location": "-8.632374563528732,-5.331637525478559,3.6343257427215576",
+      "size": "0.001464001835852713,0.3013653545385875,2.814035177230835"
+    }
+  },
+  {
+    "iri": "http://example.org/building/slab_3",
+    "label": "Slab 3",
+    "serialization": {
+      "rotation": 1.0,
+      "location": "6.114737319313326,-1.5693845443819727,10.271960258483887",
+      "size": "9.720899843047041,0.7780451935382668,0.23122119903564453"
+    }
+  },
+  {
+    "iri": "http://example.org/building/storey_4",
+    "label": "Storey 4",
+    "serialization": {
+      "rotation": 0.0,
+      "location": "4.624398231506348,2.232560396194458,10.271960258483887",
+      "size": "10.20600700378418,11.076968908309937,0.0"
+    }
+  },
+  {
+    "iri": "http://example.org/building/storey_4_wall_1",
+    "label": "Wall",
+    "serialization": {
+      "rotation": 4.2,
+      "location": "-9.480939971131,5.921434825118726,10.503181457519531",
+      "size": "0.0021985689384038665,0.31451143976549734,2.023113250732422"
+    }
+  },
+  {
+    "iri": "http://example.org/building/roof_slab",
+    "label": "Roof Slab",
+    "serialization": {
+      "rotation": 2.4000000000000004,
+      "location": "-6.554258782497887,-19.389860491442246,12.526294708251953",
+      "size": "7.328421311538074,13.845206656913422,0.23122119903564453"
+    }
+  },
+  {
+    "iri": "http://example.org/building/storey_2_column_2",
+    "label": "Column",
+    "serialization": {
+      "rotation": 1.6,
+      "location": "4.984485532901032,-7.90469392563441,3.6343257427215576",
+      "size": "0.5088994793854722,0.9075368352144215,2.814035177230835"
+    }
+  },
+  {
+    "iri": "http://example.org/building/storey_4_column_1",
+    "label": "Column",
+    "serialization": {
+      "rotation": 1.6,
+      "location": "9.991386830924899,-11.133405565948042,10.503181457519531",
+      "size": "0.5836321489024456,0.424082900188516,2.023113250732422"
+    }
+  },
+  {
+    "iri": "http://example.org/building/storey_1",
+    "label": "Storey 1",
+    "serialization": {
+      "rotation": 3.2,
+      "location": "-14.280085552423747,-12.634886012212935,0.0",
+      "size": "9.352394367292309,10.297010543215293,3.403104782104492"
+    }
+  },
+  {
+    "iri": "http://example.org/building/slab_2",
+    "label": "Slab 2",
+    "serialization": {
+      "rotation": 2.8000000000000003,
+      "location": "-3.0609093237704723,-14.474971972211458,6.448360919952393",
+      "size": "0.5298803757131787,8.955491299876888,0.23122119903564453"
+    }
+  },
+  {
+    "iri": "http://example.org/building/storey_4_column_2",
+    "label": "Column",
+    "serialization": {
+      "rotation": 0.0,
+      "location": "12.17892837524414,8.753377914428711,10.503181457519531",
+      "size": "0.3825979232788086,0.0,2.023113250732422"
+    }
+  }
+]
