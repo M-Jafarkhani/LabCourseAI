@@ -1,0 +1,188 @@
+@prefix bot: <https://w3id.org/bot#> .
+@prefix geo1: <http://example.org/geo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/building/building> a bot:Building ;
+    rdfs:label "Building" ;
+    geo1:hasLocation "-16.81168709680731,4.1057826557710175,0.0"^^xsd:string ;
+    geo1:hasRotation 4.7e+00 ;
+    geo1:hasSize "14.349227034949383,8.548154862420985,14.92672061920166"^^xsd:string ;
+    bot:hasSite <http://example.org/building/site> ;
+    bot:hasStorey <http://example.org/building/storey_1>,
+        <http://example.org/building/storey_2>,
+        <http://example.org/building/storey_3>,
+        <http://example.org/building/storey_4> .
+
+<http://example.org/building/site> a bot:Site .
+
+<http://example.org/building/storey_1_column_1> a bot:Element ;
+    rdfs:label "Column" ;
+    geo1:hasLocation "8.806897163391113,11.7644681930542,0.2653537392616272"^^xsd:string ;
+    geo1:hasRotation 0e+00 ;
+    geo1:hasSize "0.5058202743530273,0.0,3.640739858150482"^^xsd:string ;
+    bot:adjacentElement <http://example.org/building/floor_slab>,
+        <http://example.org/building/slab_1> .
+
+<http://example.org/building/storey_1_wall_1> a bot:Element ;
+    rdfs:label "Wall" ;
+    geo1:hasLocation "-1.7383447912021435,11.26695408666545,0.2653537392616272"^^xsd:string ;
+    geo1:hasRotation 5.2e+00 ;
+    geo1:hasSize "0.0043869321267155925,0.3456848056984718,3.640739858150482"^^xsd:string ;
+    bot:adjacentElement <http://example.org/building/floor_slab>,
+        <http://example.org/building/slab_1> .
+
+<http://example.org/building/storey_2_column_1> a bot:Element ;
+    rdfs:label "Column" ;
+    geo1:hasLocation "-11.398958467021297,7.983278180178529,4.171447277069092"^^xsd:string ;
+    geo1:hasRotation 4.7e+00 ;
+    geo1:hasSize "0.7630501091105781,0.44375114668044713,3.6371617317199707"^^xsd:string ;
+    bot:adjacentElement <http://example.org/building/slab_1>,
+        <http://example.org/building/slab_2> .
+
+<http://example.org/building/storey_2_wall_1> a bot:Element ;
+    rdfs:label "Wall" ;
+    geo1:hasLocation "-14.848450231346936,1.4737911424471841,4.171447277069092"^^xsd:string ;
+    geo1:hasRotation 4e+00 ;
+    geo1:hasSize "0.0017620712217638612,0.2912266853885406,3.6371617317199707"^^xsd:string ;
+    bot:adjacentElement <http://example.org/building/slab_1>,
+        <http://example.org/building/slab_2> .
+
+<http://example.org/building/storey_3_column_1> a bot:Element ;
+    rdfs:label "Column" ;
+    geo1:hasLocation "4.771886717119518,-7.941538401511398,8.073963165283203"^^xsd:string ;
+    geo1:hasRotation 1.6e+00 ;
+    geo1:hasSize "0.7903767016771388,0.7323183321578428,2.5960655212402344"^^xsd:string ;
+    bot:adjacentElement <http://example.org/building/slab_2>,
+        <http://example.org/building/slab_3> .
+
+<http://example.org/building/storey_3_column_2> a bot:Element ;
+    rdfs:label "Column" ;
+    geo1:hasLocation "-8.44421947018031,-14.972103738439095,8.073963165283203"^^xsd:string ;
+    geo1:hasRotation 3.1e+00 ;
+    geo1:hasSize "0.6902370539863263,0.5288984846428875,2.5960655212402344"^^xsd:string ;
+    bot:adjacentElement <http://example.org/building/slab_2>,
+        <http://example.org/building/slab_3> .
+
+<http://example.org/building/storey_3_column_3> a bot:Element ;
+    rdfs:label "Column" ;
+    geo1:hasLocation "8.051132202148438,9.302998542785645,8.073963165283203"^^xsd:string ;
+    geo1:hasRotation 0e+00 ;
+    geo1:hasSize "0.44357776641845703,0.0,2.5960655212402344"^^xsd:string ;
+    bot:adjacentElement <http://example.org/building/slab_2>,
+        <http://example.org/building/slab_3> .
+
+<http://example.org/building/storey_3_wall_1> a bot:Element ;
+    rdfs:label "Wall" ;
+    geo1:hasLocation "11.864957017512095,-7.858963699394342,8.073963165283203"^^xsd:string ;
+    geo1:hasRotation 1.5e+00 ;
+    geo1:hasSize "0.0010294177127079251,0.34075968528730627,2.5960655212402344"^^xsd:string ;
+    bot:adjacentElement <http://example.org/building/slab_2>,
+        <http://example.org/building/slab_3> .
+
+<http://example.org/building/storey_4_column_1> a bot:Element ;
+    rdfs:label "Column" ;
+    geo1:hasLocation "8.51836109161377,12.622989654541016,10.935382843017578"^^xsd:string ;
+    geo1:hasRotation 0e+00 ;
+    geo1:hasSize "0.5723028182983398,0.0,3.991337776184082"^^xsd:string ;
+    bot:adjacentElement <http://example.org/building/roof_slab>,
+        <http://example.org/building/slab_3> .
+
+<http://example.org/building/storey_4_column_2> a bot:Element ;
+    rdfs:label "Column" ;
+    geo1:hasLocation "9.002495765686035,5.574641704559326,10.935382843017578"^^xsd:string ;
+    geo1:hasRotation 0e+00 ;
+    geo1:hasSize "0.5481328964233398,0.0,3.991337776184082"^^xsd:string ;
+    bot:adjacentElement <http://example.org/building/roof_slab>,
+        <http://example.org/building/slab_3> .
+
+<http://example.org/building/storey_4_wall_1> a bot:Element ;
+    rdfs:label "Wall" ;
+    geo1:hasLocation "-4.7516270634912745,-10.936249069166958,10.935382843017578"^^xsd:string ;
+    geo1:hasRotation 3e+00 ;
+    geo1:hasSize "0.0024726702092658925,0.33773149020815474,3.991337776184082"^^xsd:string ;
+    bot:adjacentElement <http://example.org/building/roof_slab>,
+        <http://example.org/building/slab_3> .
+
+<http://example.org/building/storey_4_wall_2> a bot:Element ;
+    rdfs:label "Wall" ;
+    geo1:hasLocation "-12.62617501849801,-1.4957451445222834,10.935382843017578"^^xsd:string ;
+    geo1:hasRotation 4e+00 ;
+    geo1:hasSize "0.0010061164776260512,0.21392274291459668,3.991337776184082"^^xsd:string ;
+    bot:adjacentElement <http://example.org/building/roof_slab>,
+        <http://example.org/building/slab_3> .
+
+<http://example.org/building/storey_1> a bot:Storey ;
+    rdfs:label "Storey 1" ;
+    geo1:hasLocation "-19.32838848419727,2.1268393575942346,0.0"^^xsd:string ;
+    geo1:hasRotation 4.4e+00 ;
+    geo1:hasSize "15.215803924587,6.700074649828598,3.9060935974121094"^^xsd:string ;
+    bot:containsElement <http://example.org/building/floor_slab>,
+        <http://example.org/building/storey_1_column_1>,
+        <http://example.org/building/storey_1_wall_1> .
+
+<http://example.org/building/storey_2> a bot:Storey ;
+    rdfs:label "Storey 2" ;
+    geo1:hasLocation "4.193058013916016,2.899050235748291,3.9060935974121094"^^xsd:string ;
+    geo1:hasRotation 0e+00 ;
+    geo1:hasSize "8.38949203491211,13.535729885101318,0.0"^^xsd:string ;
+    bot:containsElement <http://example.org/building/slab_1>,
+        <http://example.org/building/storey_2_column_1>,
+        <http://example.org/building/storey_2_wall_1> .
+
+<http://example.org/building/storey_3> a bot:Storey ;
+    rdfs:label "Storey 3" ;
+    geo1:hasLocation "4.218723773956299,3.4120919704437256,7.8086090087890625"^^xsd:string ;
+    geo1:hasRotation 0e+00 ;
+    geo1:hasSize "8.149119853973389,12.785576105117798,0.0"^^xsd:string ;
+    bot:containsElement <http://example.org/building/slab_2>,
+        <http://example.org/building/storey_3_column_1>,
+        <http://example.org/building/storey_3_column_2>,
+        <http://example.org/building/storey_3_column_3>,
+        <http://example.org/building/storey_3_wall_1> .
+
+<http://example.org/building/storey_4> a bot:Storey ;
+    rdfs:label "Storey 4" ;
+    geo1:hasLocation "4.237542629241943,3.7948873043060303,10.670028686523438"^^xsd:string ;
+    geo1:hasRotation 0e+00 ;
+    geo1:hasSize "7.972873210906982,12.25284218788147,0.0"^^xsd:string ;
+    bot:containsElement <http://example.org/building/slab_3>,
+        <http://example.org/building/storey_4_column_1>,
+        <http://example.org/building/storey_4_column_2>,
+        <http://example.org/building/storey_4_wall_1>,
+        <http://example.org/building/storey_4_wall_2> .
+
+<http://example.org/building/floor_slab> a bot:Element ;
+    rdfs:label "Floor Slab" ;
+    geo1:hasLocation "-7.376639260826568,-19.892194363393266,0.0"^^xsd:string ;
+    geo1:hasRotation 2.7e+00 ;
+    geo1:hasSize "6.351907490187786,15.303520212781477,0.2653537392616272"^^xsd:string .
+
+<http://example.org/building/roof_slab> a bot:Element ;
+    rdfs:label "Roof Slab" ;
+    geo1:hasLocation "-16.21394361395411,4.209314847695381,14.92672061920166"^^xsd:string ;
+    geo1:hasRotation 4.7e+00 ;
+    geo1:hasSize "11.64957707142218,0.04915012962420384,0.2653541564941406"^^xsd:string ;
+    bot:adjacentElement <http://example.org/building/storey_4> .
+
+<http://example.org/building/slab_1> a bot:Element ;
+    rdfs:label "Slab 1" ;
+    geo1:hasLocation "-2.437447426913536,-17.32329280992498,3.9060935974121094"^^xsd:string ;
+    geo1:hasRotation 2.8e+00 ;
+    geo1:hasSize "0.6434197278243641,11.36594921304865,0.2653536796569824"^^xsd:string ;
+    bot:adjacentElement <http://example.org/building/storey_1> .
+
+<http://example.org/building/slab_2> a bot:Element ;
+    rdfs:label "Slab 2" ;
+    geo1:hasLocation "-2.967289645967839,-16.909851701459694,7.8086090087890625"^^xsd:string ;
+    geo1:hasRotation 2.9e+00 ;
+    geo1:hasSize "0.4410360808676774,11.318991036418312,0.2653541564941406"^^xsd:string ;
+    bot:adjacentElement <http://example.org/building/storey_2> .
+
+<http://example.org/building/slab_3> a bot:Element ;
+    rdfs:label "Slab 3" ;
+    geo1:hasLocation "-3.561686301867728,-16.575819206196865,10.670028686523438"^^xsd:string ;
+    geo1:hasRotation 3e+00 ;
+    geo1:hasSize "0.2477514493287698,11.388729170595916,0.2653541564941406"^^xsd:string ;
+    bot:adjacentElement <http://example.org/building/storey_3> .
+
